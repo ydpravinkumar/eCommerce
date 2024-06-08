@@ -1,0 +1,26 @@
+/*CSS for the individual products displayed on shop page*/
+.shop-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 16px;
+  text-align: center;
+  background: white;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
